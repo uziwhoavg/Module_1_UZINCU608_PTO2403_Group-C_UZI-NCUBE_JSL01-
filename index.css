@@ -36,6 +36,22 @@ button:hover {
     margin-top: 20px;
 }
 
+/*CROP ALL ELEMENTS INTO SIZABLE CONTAINER*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*INDICATOR GAUGE*/
+.indicator{
+    height: 30px;
+    width: 30px ;
+    border-radius: 15px ;
+    cursor: pointer;
+    margin-left: 15px ;
+    margin-bottom:  10px; ;
+}
 .valid {
     color: #008000;
 }
